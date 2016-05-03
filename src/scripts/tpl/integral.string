@@ -1,0 +1,68 @@
+<div class="integral">
+<header>
+	<ul>
+		<li class='active' action-type="swipe">花积分</li>
+		<li action-type="swipe">赚积分</li>
+	</ul>
+</header>
+<section>
+    <div class="swiper-container" id="integral-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" spa-widget="scroll">
+        	
+        	<ul >
+				<li>
+					<img src='/works/images/jiudian.jpg'/>
+					<div>
+						<i>奇火锅</i>
+						<span>火锅|3.86m</span>
+						<i><span>&#xe623;</span>消费100送100积分</i>
+					</div>
+				</li>
+				<li>
+					<img src='/works/images/jiudian.jpg'/>
+					<div>
+						<i>奇火锅</i>
+						<span>火锅|3.86m</span>
+						<i><span>&#xe623;</span>消费100送100积分</i>
+					</div>
+				</li>
+				<li>
+					<img src='/works/images/jiudian.jpg'/>
+					<div>
+						<i>奇火锅</i>
+						<span>火锅|3.86m</span>
+						<i><span>&#xe623;</span>消费100送100积分</i>
+					</div>
+				</li>
+				<li>
+					<img src='/works/images/jiudian.jpg'/>
+					<div>
+						<i>奇火锅</i>
+						<span>火锅|3.86m</span>
+						<i><span>&#xe623;</span>消费100送100积分</i>
+					</div>
+				</li><li>
+					<img src='/works/images/jiudian.jpg'/>
+					<div>
+						<i>奇火锅</i>
+						<span>火锅|3.86m</span>
+						<i><span>&#xe623;</span>消费100送100积分</i>
+					</div>
+				</li><li>
+					<img src='/works/images/jiudian.jpg'/>
+					<div>
+						<i>奇火锅</i>
+						<span>火锅|3.86m</span>
+						<i><span>&#xe623;</span>消费100送100积分</i>
+					</div>
+				</li>
+			</ul>
+        </div>
+        <div class="swiper-slide">2</div>
+        
+      </div>
+    </div>
+  </section>
+
+</div>

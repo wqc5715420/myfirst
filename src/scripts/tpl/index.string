@@ -1,0 +1,32 @@
+<div class='index'>
+	<div class='m-index-body'>
+	
+	
+	</div>
+	<footer>
+		<ul>
+			<li class="active" class="onmouseOver" action-type="tap.switch" data-tag="chance">
+				<i class="yo-ico">&#xe6d8;</i>
+				<b>首页</b>
+			</li>
+			<li action-type="tap.switch" data-tag="integral">
+				<i class="yo-ico">&#xe687;</i>
+				<b>积分</b>
+			</li>
+			<li action-type="tap.switch" data-tag="nearby">
+				<i class="yo-ico">&#xe604;</i>
+				<b>附近</b>
+			</li>
+			<li action-type="tap.switch" data-tag="search">
+				<i class="yo-ico">&#xe602;</i>
+				<b>发现</b>
+			</li>
+			<li action-type="tap.switch" data-tag="my">
+				<i class="yo-ico">&#xe622;</i>
+				<b>我的</b>
+			</li>
+		</ul>
+	</footer>
+</div>
+
+

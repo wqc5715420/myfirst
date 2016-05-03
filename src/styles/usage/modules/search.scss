@@ -1,0 +1,20 @@
+@charset"utf-8";
+   .m-index-body{
+       height: 100%;
+        width: 100%;
+//      @include flexbox(flex);
+        @include flex(1);
+        .search{
+//          @include flexbox(flex);
+//          @include flex-direction(column);
+//           @include flex(1);
+              height:100%;
+             width: 100%;
+            header{
+                @include flexbox(flex);
+                width: 100%;
+                height: .44rem;
+                background: #d9241b;;
+            }
+        }        
+    }

@@ -1,0 +1,85 @@
+<div class="chance">
+<header>
+	<select>
+		<option>山西市</option>
+		<option>山东市</option>
+	</select>
+	<p>百利生活</p>
+	<i class="yo-ico">&#xe64b;</i>
+	<i class="yo-ico">&#xe636;</i>
+</header>
+<div  class='gun' spa-widget="scroll">
+<div>
+<nav>
+	<div>
+		<div class="swiper-container" id="chance-swiper">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide"><img src="/works/images/1.jpg" /></div>
+		        <div class="swiper-slide"><img src="/works/images/2.jpg" /></div>
+		        <div class="swiper-slide"><img src="/works/images/3.jpg" /></div>
+		    </div>
+		    <div class="swiper-pagination"></div>
+		</div>
+	</div>
+</nav>
+<section>
+	<div>
+		<input type="text"/>
+		<i class="yo-ico">&#xe630;</i>
+	</div>
+	<ul>
+		
+		<li data-tag="integral" action-type="show.searcher">
+			<i class="yo-ico">&#xe63f;</i>
+			<b>新会员专享</b>
+		</li>
+		<li>
+			<i class="yo-ico">&#xe7e3;</i>
+			<b>新会员专享</b>
+		</li>
+		<li>
+			<i class="yo-ico">&#xe601</i>
+			<b>新会员专享</b>
+		</li>
+		<li>
+			<i class="yo-ico">&#xe601</i>
+			<b>新会员专享</b>
+		</li>
+		
+		
+	</ul>
+	<ul>
+		<li>
+			<i class="yo-ico">&#xe60f;</i>
+			<b>新会员专享</b>
+		</li>
+		<li>
+			<i class="yo-ico">&#xe60b;</i>
+			<b>新会员专享</b>
+		</li>
+		<li>
+			<i class="yo-ico">&#xe616;</i>
+			<b>新会员专享</b>
+		</li>
+		<li>
+			<i class="yo-ico">&#xe623;</i>
+			<b>新会员专享</b>
+		</li>
+	</ul>
+</section>
+	
+<article>
+	<ul ms-each="datalist">
+		<li>
+			<img ms-src="el.img"/>
+			<div>
+				<i ms-text="el.title"></i>
+				<span ms-text="el.details"></span>
+				<i><span>&#xe623;</span>消费100送100积分</i>
+			</div>
+		</li>		
+	</ul>
+</article>
+</div>
+</div>
+</div>

@@ -1,0 +1,83 @@
+<div class="index">
+	<header>
+		<select>
+			<option>山西市</option>
+			<option>山东市</option>
+		</select>
+		<p>百利生活</p>
+		<i class="yo-ico">&#xe64b;</i>
+		<i class="yo-ico">&#xe636;</i>
+	</header>
+	<nav>
+		<div></div>
+	</nav>
+	<section>
+		<div>
+			<input type="text"/>
+			<i class="yo-ico">&#xe630;</i>
+		</div>
+		<ul>
+			
+			<li>
+				<i class="yo-ico">&#xe63f;</i>
+				<b>新会员专享</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe7e3;</i>
+				<b>新会员专享</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe601</i>
+				<b>新会员专享</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe601</i>
+				<b>新会员专享</b>
+			</li>
+			
+			
+		</ul>
+		<ul>
+			<li>
+				<i class="yo-ico">&#xe60f;</i>
+				<b>新会员专享</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe60b;</i>
+				<b>新会员专享</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe616;</i>
+				<b>新会员专享</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe623;</i>
+				<b>新会员专享</b>
+			</li>
+		</ul>
+	</section>
+	<footer>
+		<ul>
+			<li class="active">
+				<i class="yo-ico">&#xe6d8;</i>
+				<b>首页</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe687;</i>
+				<b>积分</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe604;</i>
+				<b>附近</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe602;</i>
+				<b>发现</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe622;</i>
+				<b>我的</b>
+			</li>
+		</ul>
+	</footer>
+<div>

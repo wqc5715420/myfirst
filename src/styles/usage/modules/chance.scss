@@ -1,0 +1,177 @@
+@charset"utf-8";
+   .m-index-body{
+       height: 100%;
+        width: 100%;
+//      @include flexbox(flex);
+        @include flex(1);
+        .chance{
+//          @include flexbox(flex);
+//          @include flex-direction(column);
+//           @include flex(1);
+              height:100%;
+             width: 100%;
+            header{
+                @include flexbox(flex);
+                width: 100%;
+                height: .44rem;
+               
+                select,p,i{
+                    display: block;
+                    height: 100%;
+                    line-height: .44rem;
+                    font-size: .18rem;
+                    background: #d9241b;
+                }
+               
+                select{
+                    display: block;
+                    border: none;
+                    outline: none;
+                     
+                }
+                p{
+                    @include flex(1);
+                    text-align: center;
+                   
+                }
+                i{
+                    width: .5rem; 
+                    font-size: .3rem;
+                    text-align: center;   
+                }
+                
+            }
+            .gun{
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                position: relative;
+                
+             div{    
+                width: 100%;
+                nav{
+                    width: 100%;
+                    position: relative;
+                    .swiper-container {
+                       // @include fullscreen();
+                        @include flexbox(flex);
+                        img{
+                            @include flex(1);
+                            display: block;
+                            width: 100%;   
+                        
+                        }
+                    }
+                }
+                section{
+                 
+                  padding-top:.1rem ;
+                  @include flex(1);
+                  overflow: hidden;
+                  width: 100%;
+                  div{
+                      @include flexbox(flex) ;
+                      width: 100%;
+                      height:.3rem;
+                      line-height: .3rem;
+                      padding-left: .1rem;
+                      input{
+                        @include flex(1);
+                        height: 60%;
+                        padding: .051rem ;
+                        border-top-right-radius: .05rem;
+                        border-bottom-right-radius: .05rem;
+                        border-top-left-radius: .05rem;
+                        border-bottom-left-radius: .05rem;
+                        border: none;
+                        outline: none;
+                      }
+                      i{
+                         padding-left:.1rem;
+                         height: 100%;
+                         width:.4rem ;
+                         line-height: .25rem;
+                         font-size: .18rem;
+                      }
+                  }
+                  ul{
+                      padding-top: .1rem;
+                      width: 100%;
+                      height:.8rem;
+                      @include flexbox(flex);
+                      @include justify-content(space-around);
+                     
+                    li{
+                        text-align: center;
+                        i,b{
+                          display: block;
+                        }    
+                       i{
+                          width: .4rem;
+                          height: .4rem;
+                          background: yellow;
+                          border-radius: 50%;
+                          font-size: .2rem;
+                          text-align: center;
+                          line-height: .4rem;
+                          margin: 0 auto;
+                         
+                        }
+                       
+                       b{
+                           font-size: 12px;
+                            line-height: 0.3rem; 
+                       }
+                    }
+                  }
+                }
+                article{
+                    @include flex(1);
+                    width: 100%;
+                    
+                    ul{
+                        padding-bottom: 44px;
+                      li{
+                          @include flexbox(flex)
+                         @include border(0 0 1px 0,block);
+                            img{
+                                display: block;
+                                  width: 1rem;
+                                  height: .8rem;
+                                  padding: .1rem;
+                               
+                            }
+                            div{
+                                @include flex(1);
+                               
+                                padding: .1rem;
+                                height: .8rem;
+                                @include flex-direction(column);
+                                i{
+                                    display:block ;
+                                    font-size: 14px;
+                                    font-weight: 800;
+                                }
+                                span{
+                                    
+                                     display:block ;
+                                   line-height: .3rem;
+                                   font-size: 12px;
+                                   color: darkgray;
+                                  
+                                }
+                                i{
+                                   
+                                    span{
+                                     display: inline;
+                                      
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            }
+        }
+    } 
